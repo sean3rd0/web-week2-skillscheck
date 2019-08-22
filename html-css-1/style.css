@@ -1,102 +1,81 @@
-body {
-    margin: 0;
+* {
+    box-sizing: border-box;
 }
 
-.top {
+nav {
+    background: grey;
+    color: white;
     display: flex;
-    color: #FFFFFF;
-    background-color: #707070; 
-    width: 100%;
-    height: 8vh; 
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 75px;
+    padding: 0 65px;
+    font-family: Helvetica;
 }
 
-.top-left {
-    font-size: 30px; 
-    padding-left: 30px; 
+h1 {
+    font-size: 40px;
 }
 
-.top-right {
-    padding-right: 30px; 
-} 
-
-span {
-    padding: 15px;
-}
-
-.black {
+div {
     display: flex;
-    background-color: #000000;
-    width: 100%;
-    height: 60vh; 
-    align-items: center;
-    justify-content: space-around;
-    color: #EAE15E; 
-    font-size: 65px; 
-    font-family: Arial, Helvetica, sans-serif; 
+    justify-content: space-between;
+    width: 18%;
 }
 
-.white {
-    /* display: flex; 
-    flex-wrap: wrap; */
-    background-color: #FFFFFF;
-    width: 100%; 
-    height: 140vh; 
-    /* justify-content: space-evenly; 
-    align-items: center;  */
-} 
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: yellow;
+    width: 100%;
+    height: 450px;
+    font-family: Helvetica;
+    font-size: 70px;
+}
 
-.white-top {
+main {
     display: flex; 
-    justify-content: space-evenly; 
-
-}
-
-.three-boxes {
-    border-radius: 25px; 
-    background-color: #A4FFD7; 
-    width: 240px;
-    height: 40vh; 
-    margin: 60px;
-}
-
-.white-middle {
-    display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-}
-
-.two-boxes {
-    background-color: #FFC36C; 
-    width: 400px; 
-    height: 38vh; 
-    margin: 0, 60px;
-}
-
-.white-bottom {
-    display: flex; 
-    justify-content: space-around;
-    align-items: center;
-    height: 40vh;
-}
-
-.text-box {
-    width: 360px;
-    height: 25vh;
-    margin-left: 30px;
-    font-size: 14px;
-}
-
-.image {
-    content:url(http://osu-wams-blogs-uploads.s3.amazonaws.com/blogs.dir/411/files/2017/12/books-for-clip-art-9.jpg);
-    width: 300px;
-    height: 175px;
-    margin-right: 60px;
-}
-
-.bottom {
-    background-color: #3A3B56;
     width: 100%;
-    height: 20vh; 
+    height: 1050px;
+    padding: 65px 0;
+}
+
+.green-square {
+    background: aquamarine;
+    height: 300px;
+    width: 300px; 
+    border-radius: 10px;
+}
+
+.orange-rectangle {
+    background: orange;
+    height: 300px; 
+    width: 500px; 
+}
+
+#random-paragraph {
+    height: 150px;
+    width: 377px;
+    font-family: Helvetica;
+    font-size: 14px;
+    margin-right: 120px;
+    margin-top: 55px;
+}
+
+#JRT-Painting {
+    height: 200px;
+    width: 300px;
+    margin-top: 35px;
+    margin-right: 50px;
+}
+
+footer {
+    background: darkslateblue;
+    width: 100%;
+    height: 150px;
 }
